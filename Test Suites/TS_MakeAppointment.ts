@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_MakeAppointment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>8f3b7e98-0a78-4cb1-86ab-f20434bb0fd5</testSuiteGuid>
+   <testCaseLink>
+      <guid>f877c307-816a-4b7e-b735-b9be2f2bf17a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make_appointment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e549e4f2-24b8-4bdf-8503-6ae99625ab63</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_MakeAppointment</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e549e4f2-24b8-4bdf-8503-6ae99625ab63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Facility</value>
+         <variableId>1afbbc68-16f8-477c-abda-fa3eb32bf50d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e549e4f2-24b8-4bdf-8503-6ae99625ab63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Readmission</value>
+         <variableId>2b1df37c-b855-4146-bcfe-d8a61e01e69b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e549e4f2-24b8-4bdf-8503-6ae99625ab63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Program</value>
+         <variableId>a64c4c7a-95dd-4ce3-b0d7-d48e17cfb07d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e549e4f2-24b8-4bdf-8503-6ae99625ab63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Date</value>
+         <variableId>d1f7b853-82aa-4499-b533-83ed1523dc37</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e549e4f2-24b8-4bdf-8503-6ae99625ab63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Comment</value>
+         <variableId>621e2e54-f8dc-408f-bbe9-60f2a871961b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
